@@ -21,4 +21,5 @@ int main() {
   std::chrono::high_resolution_clock::duration time = end_time - start_time;
   std::cout << "fib(40) took " <<
     std::chrono::duration_cast<std::chrono::microseconds>(time).count() << " microsecond to run.\n";
+    return 0;
 }
